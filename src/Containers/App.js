@@ -26,22 +26,25 @@ class App extends React.Component {
   };
   // render function for rendering the final page
   render() {
+    const { robots, searchBox } = this.state;
     // search bar logic for state change to robot array
     // filters robots that include search input
-    const filteredRobots = this.state.robots.filter((robot) => {
-      return robot.name
-        .toLowerCase()
-        .includes(this.state.searchBox.toLowerCase());
+    const filteredRobots = robots.filter((robot) => {
+      return robot.name.toLowerCase().includes(searchBox.toLowerCase());
     });
-    return (
-      <div className="tc">
-        <h1 className="f1">RoboFriends</h1>
-        <SearchBox searchChange={this.onSearchChange} />
-        <Scroll>
-          <CardList robots={filteredRobots} />
-        </Scroll>
-      </div>
-    );
+    if (!robots.length) {
+      <h1>loading</h1>;
+    } else {
+      return (
+        <div className="tc">
+          <h1 className="f1">RoboFriends</h1>
+          <SearchBox searchChange={this.onSearchChange} />
+          <Scroll>
+            <CardList robots={filteredRobots} />
+          </Scroll>
+        </div>
+      );
+    }
   }
 }
 
