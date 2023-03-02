@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/C0nCode5/RoboFriends/static/css/main.75c521ee.css",
-    "main.js": "/C0nCode5/RoboFriends/static/js/main.e26bf131.js",
-    "static/js/787.414ae519.chunk.js": "/C0nCode5/RoboFriends/static/js/787.414ae519.chunk.js",
-    "index.html": "/C0nCode5/RoboFriends/index.html",
-    "main.75c521ee.css.map": "/C0nCode5/RoboFriends/static/css/main.75c521ee.css.map",
-    "main.e26bf131.js.map": "/C0nCode5/RoboFriends/static/js/main.e26bf131.js.map",
-    "787.414ae519.chunk.js.map": "/C0nCode5/RoboFriends/static/js/787.414ae519.chunk.js.map"
+    "main.css": "/C0nCode5/RoboFriends/tree/gh-pages/static/css/main.75c521ee.css",
+    "main.js": "/C0nCode5/RoboFriends/tree/gh-pages/static/js/main.bfcc650e.js",
+    "static/js/787.414ae519.chunk.js": "/C0nCode5/RoboFriends/tree/gh-pages/static/js/787.414ae519.chunk.js",
+    "index.html": "/C0nCode5/RoboFriends/tree/gh-pages/index.html",
+    "main.75c521ee.css.map": "/C0nCode5/RoboFriends/tree/gh-pages/static/css/main.75c521ee.css.map",
+    "main.bfcc650e.js.map": "/C0nCode5/RoboFriends/tree/gh-pages/static/js/main.bfcc650e.js.map",
+    "787.414ae519.chunk.js.map": "/C0nCode5/RoboFriends/tree/gh-pages/static/js/787.414ae519.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75c521ee.css",
-    "static/js/main.e26bf131.js"
+    "static/js/main.bfcc650e.js"
   ]
 }
